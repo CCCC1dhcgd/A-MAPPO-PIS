@@ -98,7 +98,7 @@ def copy_file(tar_dir):
 
     models = 'MAA2C.py'
     copy(models, tar_dir)
-    main = 'run_ma2c.py'
+    main = 'maa2c_main.py'
     copy(main, tar_dir)
     c1 = 'common/Agent.py'
     copy(c1, tar_dir)
@@ -117,15 +117,15 @@ def copy_file_ppo(tar_dir):
     env2 = 'configs/configs_ppo.ini'
     copy(env2, tar_dir)
 
-    models = 'MAPPO.py'
+    models = 'MAPPO_pis.py'
     copy(models, tar_dir)
-    main = 'run_mappo.py'
+    main = 'mappo_pis_main.py'
     copy(main, tar_dir)
-    c1 = 'single_agent/Agent_common.py'
+    c1 = 'RL/Agent_common.py'
     copy(c1, tar_dir)
-    c2 = 'single_agent/Memory_common.py'
+    c2 = 'RL/Memory_common.py'
     copy(c2, tar_dir)
-    c3 = 'single_agent/Model_common.py'
+    c3 = 'RL/Model_common.py'
     copy(c3, tar_dir)
 
 
@@ -140,13 +140,13 @@ def copy_file_akctr(tar_dir):
 
     models = 'MAACKTR.py'
     copy(models, tar_dir)
-    main = 'run_maacktr.py'
+    main = 'maacktr_main.py'
     copy(main, tar_dir)
-    c1 = 'single_agent/Agent_common.py'
+    c1 = 'RL/Agent_common.py'
     copy(c1, tar_dir)
-    c2 = 'single_agent/Memory_common.py'
+    c2 = 'RL/Memory_common.py'
     copy(c2, tar_dir)
-    c3 = 'single_agent/Model_common.py'
+    c3 = 'RL/Model_common.py'
     copy(c3, tar_dir)
 
 

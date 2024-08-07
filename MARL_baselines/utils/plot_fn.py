@@ -16,12 +16,12 @@ def smooth(x, timestamps=9):
 
 
 def plot_reward():
-    reward_hard_bs = np.load('/home/dong/PycharmProjects/MARL_AD_U/MARL/results/Oct-24_23:35:34/eval_rewards.npy')
-    reward_hard_safe = np.load('/home/dong/PycharmProjects/MARL_AD_U/MARL/results/Oct-25_14:43:29/eval_rewards.npy')
+    reward_hard_bs = np.load('/home/dong/PycharmProjects/MARL_AD_U/MARL_baselines/results/Oct-24_23:35:34/eval_rewards.npy')
+    reward_hard_safe = np.load('/home/dong/PycharmProjects/MARL_AD_U/MARL_baselines/results/Oct-25_14:43:29/eval_rewards.npy')
     # reward_lstm = np.load(
-    #     '/home/dong/PycharmProjects/MARL_AD_U_v0/MARL/results/Mar-20_00:38:36/episode_rewards.npy')
+    #     '/home/dong/PycharmProjects/MARL_AD_U_v0/MARL_baselines/results/Mar-20_00:38:36/episode_rewards.npy')
     # reward_lstm1 = np.load(
-    #     '/home/dong/PycharmProjects/MARL_AD_U_v1/MARL/results/Mar-20_03:40:28/episode_rewards.npy')
+    #     '/home/dong/PycharmProjects/MARL_AD_U_v1/MARL_baselines/results/Mar-20_03:40:28/episode_rewards.npy')
     plt.figure()
     plt.xlabel("epochs")
     plt.ylabel("Reward")
